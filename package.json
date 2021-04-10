@@ -1,0 +1,14 @@
+{
+  "name": "try-babel-plugin",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "echo \"input.js\\nplugin.js\" | entr -s './node_modules/.bin/babel input.js &> output.js'"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15"
+  }
+}
