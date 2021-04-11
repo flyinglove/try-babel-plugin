@@ -5,6 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "build": "babel -f input.js -o dist/output.js",
     "watch": "echo \"input.js\\nplugin.js\" | entr -s './node_modules/.bin/babel input.js &> output.js'"
   },
   "devDependencies": {
